@@ -33,7 +33,3 @@ app.use(function (req, res, next) {
     res.status(404).send('Wybacz, nie mogliśmy odnaleźć tego, czego żądasz!')
 });
 
-/*
-138367431680-dhlsj6trk6knivuqrl3qdj2q8cm66m42.apps.googleusercontent.com
-lLIKSbzqL07i9x0NSmtCk_sl
-*/
