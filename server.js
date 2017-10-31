@@ -17,11 +17,11 @@ app.get('/store', function (req, res) {
     res.send('To jest sklep');
 });
 
-app.get('/first-view', function (req, res) {
+app.get('/login', function (req, res) {
     res.render('first');
 });
 
-app.get('/user-panel', function (req, res) {
+app.get('/auth/google', function (req, res) {
     res.render('user', { message: 'yo!' });
 })
 
